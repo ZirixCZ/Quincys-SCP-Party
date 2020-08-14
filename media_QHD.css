@@ -5,3 +5,25 @@
     }
 }
 
+@media only screen and (max-width: 1366px) {
+    #bg-video {
+        width: 1250px;
+        height: 800px;
+    }
+    .fade-in {
+        width: 1800px;
+    }
+    #section-title_title {
+        font-size: 60px;
+        margin-left: 0px;
+    }
+    #section-title_button-IP {
+        font-size: 40px;
+        margin-right: 300px;
+    }
+    #section-title_button-Discord {
+        font-size: 40px;
+        margin-right: 0px;  
+    }
+}
+
