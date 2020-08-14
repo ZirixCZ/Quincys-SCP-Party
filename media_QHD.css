@@ -1,6 +1,7 @@
-@media only screen and (min-width: 2300px) {
+@media only screen and (min-width: 2560px) {
     #bg-video {
-        width: 2200px;
+        width: 1800px;
+        height: 1000px;
     }
 }
 
