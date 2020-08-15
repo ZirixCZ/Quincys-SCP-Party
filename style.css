@@ -22,7 +22,6 @@ body {
     cursor: pointer;
 
     background-color: transparent;
-    border: 1px solid white;
     transition: all .3s;
     color: white;
     text-decoration: none;
@@ -68,7 +67,7 @@ body {
 
 
 /*title section*/
-.section-title {
+#section-title {
  height: 700px;
  width: 1800px;
 }
@@ -163,7 +162,7 @@ body {
 
 
 
-.section-about {
+#section-about {
  height: 700px;
   width: 1800px;
 }
