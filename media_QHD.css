@@ -3,6 +3,10 @@
         width: 1800px;
         height: 1000px;
     }
+
+    #scroll_anchor {
+        left: 910px;
+    }
 }
 
 @media only screen and (max-width: 1366px) {
