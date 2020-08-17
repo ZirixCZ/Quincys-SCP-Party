@@ -1,9 +1,4 @@
 @media only screen and (min-width: 2560px) {
-    #bg-video {
-        width: 1800px;
-        height: 1000px;
-    }
-
     #scroll_anchor {
         left: 910px;
     }
@@ -11,25 +6,35 @@
 
 @media only screen and (max-width: 1366px) {
     #bg-video {
-        width: 1250px;
+        width: 1366px;
         height: 800px;
     }
+    #scroll_anchor {
+        top: 680px;
+    }
     .fade-in {
-        width: 1800px;
+        width: 1366px;
     }
     #section-title_title {
         font-size: 60px;
-        margin-left: 0px;
+        margin-left: 200px;
+        height: 500px;
+    }
+    #section-title {
+        width: 1366px;
+        height: 700px;
+    }
+    #section-about {
+        width: 1366px;
     }
     #section-title_button-IP {
-        font-size: 40px;
-        margin-right: 300px;
+        font-size: 35px;
+        width: 300px;
+        top: 0px;
     }
     #section-title_button-Discord {
-        font-size: 40px;
-        margin-right: 0px;  
+        font-size: 35px;
+        width: 300px;
+        top: 0px;
     }
 }
-
-
-
