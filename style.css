@@ -75,7 +75,7 @@ body {
 }
 
 .fade-in {
-    opacity: 0;
+    opacity: 1;
     transition: opacity 250ms ease-in;
     width: 1800px;
     margin: 0;
