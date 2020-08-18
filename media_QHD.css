@@ -1,5 +1,6 @@
 @media only screen and (min-width: 2560px) {
     .fade-in {
+        opacity: 0;
         width: 100%;
         height: 500px;
     }
