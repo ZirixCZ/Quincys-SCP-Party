@@ -13,7 +13,9 @@
         top: 680px;
     }
     .fade-in {
+        opacity: 1;
         width: 1366px;
+        height: 500px;
     }
     #section-title_title {
         font-size: 60px;
