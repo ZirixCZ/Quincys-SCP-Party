@@ -173,7 +173,7 @@ body {
 /*about section*/
 
 #section-about {
-    height: 700px;
+    height: 500px;
     width: 100%;
 }
 
@@ -207,6 +207,101 @@ body {
 }
 
 
+/*events section*/
+
+#section-events {
+    height: 700px;
+    width: 100%;
+}
+
+.section-events_title {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#section-events_maintitle {
+    letter-spacing: 5px;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    margin-left: 675px;
+    color: rgb(246, 180, 80);
+    font-size: 140px;
+}
+
+#section-events_event_title {
+    top: -100px;
+    font-weight: 700;
+    letter-spacing: 5px;
+    position: relative;
+    text-align: center;
+    margin-left: -600px;
+    color: rgb(172, 216, 217);
+    font-size: 70px;
+}
+
+#section-events_event_title-span {
+    font-size: 80px;
+}
+
+#section-events_event_title2 {
+    top: 200px;
+    font-weight: 700;
+    letter-spacing: 5px;
+    position: relative;
+    text-align: center;
+    margin-left: -600px;
+    color: rgb(172, 216, 217);
+    font-size: 70px;
+}
+
+#section-events_event_title-span2 {
+    font-size: 80px;
+}
+
+.section-events_events-title_div {
+    width: 100%;
+    height: 100%;
+}
+
+#section-events_event_title-date {
+    top: -300px;
+    position: relative;
+    text-align: justify;
+    font-size: 50px;
+    margin-left: 500px;
+    color: rgb(240, 198, 135);
+}
+
+#section-events_event_title-date2 {
+    top: -20px;
+    position: relative;
+    text-align: justify;
+    font-size: 50px;
+    margin-left: 500px;
+    color: rgb(240, 198, 135);
+}
+
+#section-events_event_title-description {
+    top: -250px;
+    position: relative;
+    text-align: justify;
+    font-size: 50px;
+    margin-left: 500px;
+    color: rgb(240, 198, 135);
+}
+
+#section-events_event_title-description2 {
+    top: 30px;
+    position: relative;
+    text-align: justify;
+    font-size: 50px;
+    margin-left: 500px;
+    color: rgb(240, 198, 135);
+}
+
+
 /* Scrollbar */
 
 
@@ -220,12 +315,13 @@ body {
 /* Track */
 
 ::-webkit-scrollbar-track {
-    background: rgb(209, 209, 209);
+    background: #272627;
 }
 
 
 /* Handle */
 
 ::-webkit-scrollbar-thumb {
-    background: #F65058FF;
+    border-radius: 2px;
+    background: rgb(215, 214, 209);
 }
