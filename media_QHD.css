@@ -34,6 +34,36 @@
         margin-left: 200px;
         font-size: 40px;
     }
+    #section-about {
+        height: 800px;
+        width: 100%;
+    }
+    #section-events_maintitle {
+        margin-left: 950px;
+        font-size: 180px;
+    }
+    #section-events_event_title {
+        margin-left: -500px;
+        font-size: 110px;
+    }
+    #section-events_event_title2 {
+        margin-left: -500px;
+        font-size: 110px;
+    }
+    #section-events_event_title-date {
+        top: -400px;
+        margin-left: 800px;
+    }
+    #section-events_event_title-date2 {
+        margin-left: 800px;
+    }
+    #section-events_event_title-description {
+        top: -350px;
+        margin-left: 800px;
+    }
+    #section-events_event_title-description2 {
+        margin-left: 800px;
+    }
 }
 
 @media only screen and (max-width: 1366px) {
@@ -45,6 +75,7 @@
         top: 600px;
     }
     .fade-in {
+        opacity: 1;
         width: 100%;
         height: 500px;
     }
@@ -66,5 +97,39 @@
         font-size: 35px;
         width: 300px;
         top: 0px;
+    }
+    #section-events_maintitle {
+        margin-left: 500px;
+        font-size: 100px;
+    }
+    #section-events_event_title {
+        margin-left: -500px;
+        top: 10px;
+        font-size: 60px;
+    }
+    #section-events_event_title2 {
+        margin-left: -500px;
+        top: 230px;
+        font-size: 60px;
+    }
+    #section-events_event_title-date {
+        top: -190px;
+        margin-left: 320px;
+        font-size: 40px;
+    }
+    #section-events_event_title-date2 {
+        margin-left: 320px;
+        top: 20px;
+        font-size: 40px;
+    }
+    #section-events_event_title-description {
+        top: -165px;
+        margin-left: 320px;
+        font-size: 40px;
+    }
+    #section-events_event_title-description2 {
+        margin-left: 320px;
+        font-size: 40px;
+        top: 50px;
     }
 }
