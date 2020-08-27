@@ -246,6 +246,7 @@ body {
 }
 
 #section-events_event_title2 {
+    opacity: 0;
     top: 200px;
     font-weight: 700;
     letter-spacing: 5px;
@@ -275,6 +276,7 @@ body {
 }
 
 #section-events_event_title-date2 {
+    opacity: 0;
     top: -20px;
     position: relative;
     text-align: justify;
@@ -293,6 +295,7 @@ body {
 }
 
 #section-events_event_title-description2 {
+    opacity: 0;
     top: 30px;
     position: relative;
     text-align: justify;
