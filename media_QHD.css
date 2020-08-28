@@ -3,6 +3,9 @@
         width: 100%;
         height: 500px;
     }
+    #section-events {
+        height: 1500px;
+    }
     #scroll_anchor {
         left: 1270px;
         top: 1250px;
@@ -27,10 +30,12 @@
         top: 50px;
     }
     #section-about_title {
+        top: 50px;
         margin-left: 200px;
         font-size: 120px;
     }
     #section-about_paragraph {
+        top: 50px;
         margin-left: 200px;
         font-size: 40px;
     }
@@ -70,6 +75,15 @@
     #bg-video {
         width: 100%;
         height: 800px;
+    }
+    #section-about {
+        height: 500px;
+    }
+    #section-about_title {
+        top: 100px;
+    }
+    #section-about_paragraph {
+        top: 100px;
     }
     #scroll_anchor {
         top: 600px;
