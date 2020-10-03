@@ -33,7 +33,7 @@ faders.forEach(fader => {
 
 
 function textChange(){
-    document.getElementById('section-title_button-IP').innerHTML = "62.235.177.67:1355";
+    document.getElementById('section-title_button-IP').innerHTML = "--";
   }
   
   function ClickFuncsFeedback(){
