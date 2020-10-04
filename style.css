@@ -27,6 +27,11 @@ body {
     text-decoration: none;
     transform: translate(-50%, -50%);
     line-height: 50px;
+ 
+ 
+Leave a comment
+
+Attach files by dragging & dropping, selecting or pasting them.
     text-align: center;
     position: absolute;
     font-size: 18px;
@@ -173,8 +178,9 @@ body {
 /*about section*/
 
 #section-about {
-    height: 500px;
+    height: 400px;
     width: 100%;
+    background-color: #1f1d1f;
 }
 
 #section-about_title {
@@ -210,7 +216,7 @@ body {
 /*events section*/
 
 #section-events {
-    height: 700px;
+    height: 1100px;
     width: 100%;
 }
 
@@ -263,7 +269,7 @@ body {
 
 .section-events_events-title_div {
     width: 100%;
-    height: 100%;
+    height: 200px;
 }
 
 #section-events_event_title-date {
