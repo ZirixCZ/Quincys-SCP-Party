@@ -43,5 +43,5 @@ function textChange(){
 
 
   function ServerInvite() {
-    window.open("https://discord.gg/Vjhvv5J")
+    window.open("https://discord.gg/F2zFuaB")
   }
