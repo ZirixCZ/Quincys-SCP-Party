@@ -137,6 +137,8 @@
     }
     .join-section-li {
         font-size: 10px;
+        line-height: 2px;
+        padding: 5px;
     }
     #events-section-title1text {
         font-size: 12px;
