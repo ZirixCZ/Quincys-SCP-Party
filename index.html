@@ -1,73 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="media_QHD.css">
-    <link href="https://fonts.googleapis.com/css?family=Arimo|Montserrat|Roboto|Cabin|Roboto+Condensed|Roboto+Mono|Roboto+Slab&display=swap" rel="stylesheet">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <title>Quincy's SCP Party</title>
+    <link rel="stylesheet" href="media.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Yantramanav:wght@900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-
 <body>
+    <a href="#join-section" class="arrow down"></a>
+    <!--navbar-->
+    
+    <div class="navbar" id="mynavbar">
+        <a onclick="DiscordInvite()">JOIN US</a>
+        <a href="#main-section">Go up</a>
+        <a href="#join-section">Info</a>
+        <a href="#events-section">Events</a>
+        <a href="#players-section">Community</a>
+        <a href="javascript:void(0);" class="icon" onclick="responsivenavbar()">
+            <i class="fa fa-bars"></i>
+          </a>
+    </div>
+    <!--title "QuincysSCP"-->
+    <div class="main-title">
+        <h1>QuincysSCP</h1>
+    </div>
+<!--section "mainsection"-->
+<section id="main-section">
 
+</section>
+<!--section "why to join"-->
+<section id="join-section">
+    <div class="join-section-title1">
+        <h1 id="join-section-title1text">Why should you join?</h1>
+    </div>
+    <div class="join-section-li">
+        <li id="li-a">very very very good reason hahahaha</li>
+        <li id="li-a">very very very good reason hahahaha 2</li>
+        <li id="li-a">very very very good reason hahahaha 76</li>
+    </div>
+</section>
+<!--section "events"-->
+<section id="events-section">
+    <div class="events-section-title1">
+        <h1 id="events-section-title1text">Events</h1>
+    </div>
+    <div class="events-section-li">
+        <li id="li-a">Good Event name [12/10/19:00CET]</li>
+        <li id="li-a">Good Event name [12/10/19:00CET]</li>
+        <li id="li-a">Good Event name [12/10/19:00CET]</li>
+    </div>
+</section>
+<!--section "active players"-->
+<section id="players-section">
+    <div class="players-section-title1">
+        <h1 id="players-section-title1text">Active Players</h1>
+    </div>
+    <div class="players-section-li">
+        <li id="li-a">First Place</li>
+        <li id="li-a">Second Place</li>
+        <li id="li-a">Third Place</li>
+        <li id="li-a">Fourth Place</li>
+        <li id="li-a">Fifth Place</li>
+    </div>
+</section>
+<!--section "footer"-->
+<section id="contact_info">
+    <div class="text_footer">
+        <h1 id="h1_text-foooter-discord">Discord</h1>
+        <p id="text_footer-p">It’s where your world talks. Discord is a voice, video and text communication service used by over a hundred million people to hang out and talk with their friends and communities. <span id="footer-discord-link" onclick="DiscordInvite()">Click here to join.</span></p>
 
-    <div class="topnav" id="myTopnav">
-        <a href="http://www.quincymc.ga/" class="active">Minecraft</a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-          <i class="fa fa-bars"></i>
-        </a>
-      </div>
-
-
-
-
-
-    <!--background video-->
-    <video id="bg-video" autoplay muted loop>
-        <source src="resources\SCPloop.mp4" type="video/mp4">
-    </video>
-    <a id="scroll_anchor" href="#section-title"> ⌵ </a>
-
-
-    <!--sections-->
-    <section id="section-title">
-        <div class="fade-in">
-            <h1 id="section-title_title">Quincy's SCP Party</h1>
-            <a id="section-title_button-IP" onclick="textChange()">SCP:SL - IP adress</button>
-                <a id="section-title_button-Discord" onclick="ServerInvite()">Join our Discord!</a>
-        </div>
-    </section>
-
-    <section id="section-events">
-        <div class="section-events-div">
-            <h1 id="section-events_maintitle">EVENTS</h1>
-            <p id="section-events_event_title"><span id="section-events_event_title-span">• </span>We are working on more Events!</p>
-
-            <p id="section-events_event_title2"><span id="section-events_event_title-span2">• </span>We are working on more Events!</p>
-        </div>
-        <div class="section-events_events-title_div">
-            <p id="section-events_event_title-date">..</p>
-            <p id="section-events_event_title-description">..</p>
-            <p id="section-events_event_title-date2">..</p>
-            <p id="section-events_event_title-description2">..</p>
-        </div>
-    </section>
-
-
-
-    <section id="section-about">
-        <div class="fade-in">
-            <h1 id="section-about_title">About us!</h1>
-            <p id="section-about_paragraph">Enjoying SCP:SL? Are you looking for a fun, community based, welcoming server to join and hangout on? Then look no further! The IP is right above. The game-server is hosted in
-                <span id="section-about_paragraph-span2">Central Europe</span> to provide a <span id="section-about_paragraph-span2">good connection</span> for Western-Europian and Eastern-Europian players.
-                <span id="section-about_paragraph-span1" onclick="ServerInvite()"> Join our Community
-                    server</span></p>
-        </div>
-    </section>
-</body>
+    </div>
+    <div class="text-footer-email">
+        <h1 id="h1_text-footer-email">Email</h1>
+        <p id="text-footer-p-email">Do you have any questions or concerns? Contact us via our email: <span id="footer-email-span">quincysparty@gmail.com</span></p>
+    </div>
+    <div class="footer-watermark">
+        <p id="watermark"><span id="footer-quincymcp">Quincy's SCP Party</span> - <span id="footer-watermark-span">Zirix#4222</span></p>
+    </div>
+</section>
 <script src="index.js"></script>
-
+</body>
 </html>
