@@ -20,6 +20,20 @@
       color: rgb(0, 0, 0);
     }
   }
+  @media screen and (max-width: 1000px) {
+    .navbar .icon {
+      width: 100%;
+      position: relative;
+      top: -30%;
+      display: none;
+  }
+  html, body {
+    overflow-x: hidden;
+  }
+  body {
+    position: relative
+  }
+  }
   @media screen and (max-width: 999px) {
     .text_footer {
       top: 5%;
