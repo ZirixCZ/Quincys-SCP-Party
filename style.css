@@ -65,29 +65,38 @@ body, html {
     text-align: center;
     border-radius: 3px;
     border: 2px solid #000000;
+    text-shadow: rgb(0, 0, 0) 0px 0px 1px;
 }
 #main-section {
     width: 100%;
     height: 100%;
-    background-color: rgb(255, 255, 255);
+    background-image: url(resources/boblesuwu_2x.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  
 }
 #join-section {
+    background-image: url(resources/mysterious_cats_by_amamidori_dc44bdg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 100%;
     height: 50%;
-    background-color: rgb(255, 255, 255);
 }
 .join-section-title1 {
     font-family: 'Roboto', sans-serif;
 
 }
 #join-section-title1text {
+    color: white;
     left: 50%;
     transform: translate(-50%, -50%);
     position: absolute;
     font-size: 27px;
     top: 112%;
+    text-shadow: rgb(0, 0, 0) 0px 0px 5px;
 }
 .join-section-li {
+    color: white;
     font-family: 'Roboto', sans-serif;
     position: absolute;
     left: 50%;
@@ -98,15 +107,18 @@ body, html {
     text-align: center;
     font-size: 25px;
     line-height: 70px;
+    text-shadow: rgb(0, 0, 0) 0px 0px 5px;
 }
 #li-a {
     text-align: justify;
 }
 #events-section {
+    background-image: url(resources/larryscaryqwq_2x.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     margin-bottom: 0;
     width: 100%;
     height: 50%;
-    background-color: #17191b;
 }
 .events-section-title1 {
     font-family: 'Roboto', sans-serif;
@@ -119,6 +131,7 @@ body, html {
     position: absolute;
     font-size: 27px;
     top: 160%;
+    text-shadow: rgb(0, 0, 0) 0px 0px 5px;
 }
 .events-section-li {
     color: white;
@@ -132,25 +145,31 @@ body, html {
     text-align: center;
     font-size: 25px;
     line-height: 70px;
+    text-shadow: rgb(0, 0, 0) 0px 0px 5px;
 }
 #players-section {
+    background-image: url(resources/scp_131_1167_by_amamidori_dc1r0jf.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     margin-top: 0;
     width: 100%;
     height: 60%;
-    background-color: rgb(255, 255, 255);
 }
 .players-section-title1 {
     font-family: 'Roboto', sans-serif;
 
 }
 #players-section-title1text {
+   color: white;
     left: 50%;
     transform: translate(-50%, -50%);
     position: absolute;
     font-size: 27px;
     top: 210%;
+    text-shadow: rgb(0, 0, 0) 0px 0px 5px;
 }
 .players-section-li {
+    color: white;
     font-family: 'Roboto', sans-serif;
     position: absolute;
     left: 50%;
@@ -161,6 +180,7 @@ body, html {
     text-align: center;
     font-size: 25px;
     line-height: 70px;
+    text-shadow: rgb(0, 0, 0) 0px 0px 5px;
 }
 #contact_info {
     height: 50%;
