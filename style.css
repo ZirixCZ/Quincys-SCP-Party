@@ -7,8 +7,8 @@ body, html {
 }
 .arrow {
     cursor: pointer;
-    border: solid black;
-    border-width: 0 3px 3px 0;
+    border: solid rgb(255, 255, 255);
+    border-width: 0 4px 4px 0;
     display: inline-block;
     padding: 3px;
  }
@@ -54,6 +54,7 @@ body, html {
     display: none;
 }
 .main-title {
+    color: white;
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     position: absolute;
@@ -64,7 +65,7 @@ body, html {
     padding: 20px;
     text-align: center;
     border-radius: 3px;
-    border: 2px solid #000000;
+    border: 2px solid #ffffff;
     text-shadow: rgb(0, 0, 0) 0px 0px 1px;
 }
 #main-section {
