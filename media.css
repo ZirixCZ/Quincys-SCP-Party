@@ -147,24 +147,32 @@
 }
 @media screen and (max-width: 800px) {
     #join-section-title1text {
-        font-size: 12px;
+        font-size: 14px;
     }
     .join-section-li {
-        font-size: 10px;
+        font-size: 12px;
         line-height: 20px;
     }
     #events-section-title1text {
-        font-size: 12px;
+        font-size: 14px;
     }
     .events-section-li {
-        font-size: 10px;
+        font-size: 12px;
         line-height: 20px;
     }
     #players-section-title1text {
-        font-size: 12px;
+        font-size: 14px;
     }
     .players-section-li {
-        font-size: 10px;
+        font-size: 12px;
         line-height: 20px;
     }
+}
+@media screen and (max-width: 500px) {
+  #watermark {
+    margin-top: 70%;
+  }
+  #contact_info {
+    height: 70%;
+}
 }
