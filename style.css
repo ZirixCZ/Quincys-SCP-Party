@@ -81,7 +81,7 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 50%;
+    height: 55%;
 }
 .join-section-title1 {
     font-family: 'Roboto', sans-serif;
@@ -103,7 +103,7 @@ body, html {
     left: 50%;
     top: 135%;
     transform: translate(-50%, -50%);
-    width: 90%;
+    width: 40%;
     padding: 20px;
     text-align: center;
     font-size: 25px;
