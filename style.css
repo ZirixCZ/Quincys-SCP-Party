@@ -103,7 +103,7 @@ body, html {
     left: 50%;
     top: 135%;
     transform: translate(-50%, -50%);
-    width: 40%;
+    width: 90%;
     padding: 20px;
     text-align: center;
     font-size: 25px;
@@ -234,6 +234,9 @@ body, html {
   }
   #footer-email-span {
     color: white;
+  }
+  #footer-span-webmanager {
+    color: rgb(146, 255, 143);
   }
   .footer-watermark {
     position: relative;
