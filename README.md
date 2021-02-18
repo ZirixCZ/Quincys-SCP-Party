@@ -1,1 +1,1 @@
-Hi, the domain adress for this repository is quincyscp.ga
+Hi, the domain adress for this repository is https://www.quincyscp.ga/
