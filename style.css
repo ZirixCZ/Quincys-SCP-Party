@@ -10,20 +10,36 @@ body, html {
     border: solid rgb(255, 255, 255);
     border-width: 0 4px 4px 0;
     display: inline-block;
+    border-radius: 100%;
     padding: 3px;
- }
-.down {
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid white;
     position: absolute;
     top: 80%;
     left: 50%;
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
+ }
+.pointer {
+  cursor: pointer;
+  border: solid rgb(255, 255, 255);
+  border-width: 0 4px 4px 0;
+  position: absolute;
+  top: 82.2%;
+  left: 51.15%;
+  width: 8px;
+  height: 8px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
   }
 .navbar {
     z-index: 1;
     position: fixed;
     top: 0;
-    background-color: rgb(3, 1, 8);
+    background-color: rgb(0, 0, 0);
     width: 100%;
     height: 6%;
     text-shadow: 20px;
@@ -66,18 +82,21 @@ body, html {
     text-align: center;
     border-radius: 3px;
     border: 2px solid #ffffff;
-    text-shadow: rgb(0, 0, 0) 0px 0px 1px;
+    background-color: rgba(0, 0, 0, 0.144);
+    box-shadow:  2px 5px 20px rgba(253, 253, 253, 0.137);
 }
 #main-section {
     width: 100%;
     height: 100%;
-    background-image: url(resources/boblesuwu_2x.jpg);
+    /*background-image: url(resources/boblesuwu_2x.jpg);*/
+    background-color: rgb(0, 0, 0);
     background-repeat: no-repeat;
     background-size: cover;
   
 }
 #join-section {
-    background-image: url(resources/mysterious_cats_by_amamidori_dc44bdg.png);
+    /*background-image: url(resources/mysterious_cats_by_amamidori_dc44bdg.png);*/
+    background-color: rgb(0, 0, 0);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -94,7 +113,7 @@ body, html {
     position: absolute;
     font-size: 27px;
     top: 112%;
-    text-shadow: rgb(0, 0, 0) 0px 0px 5px;
+    text-shadow: rgba(255, 255, 255, 0.459) 0px 0px 2px;
 }
 .join-section-li {
     color: white;
@@ -114,32 +133,33 @@ body, html {
     text-align: justify;
 }
 #events-section {
-    background-image: url(resources/larryscaryqwq_2x.jpg);
+    /*background-image: url(resources/larryscaryqwq_2x.jpg);*/
+    background-color: #000000;
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 0;
     width: 100%;
-    height: 50%;
+    height: 65%;
 }
 .events-section-title1 {
     font-family: 'Roboto', sans-serif;
 
 }
 #events-section-title1text {
-    color: white;
+    color: rgb(255, 255, 255);
     left: 50%;
     transform: translate(-50%, -50%);
     position: absolute;
     font-size: 27px;
-    top: 160%;
-    text-shadow: rgb(0, 0, 0) 0px 0px 5px;
+    top: 170%;
+    text-shadow: rgba(255, 255, 255, 0.459) 0px 0px 2px;
 }
 .events-section-li {
-    color: white;
+    color: rgb(255, 255, 255);
     font-family: 'Roboto', sans-serif;
     position: absolute;
     left: 50%;
-    top: 184%;
+    top: 194%;
     transform: translate(-50%, -50%);
     width: 40%;
     padding: 20px;
@@ -147,14 +167,20 @@ body, html {
     font-size: 25px;
     line-height: 70px;
     text-shadow: rgb(0, 0, 0) 0px 0px 5px;
+    font-weight: 400;
+}
+#li-a-name {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: 400;
 }
 #players-section {
-    background-image: url(resources/scp_131_1167_by_amamidori_dc1r0jf.png);
+    /*background-image: url(resources/scp_131_1167_by_amamidori_dc1r0jf.png);*/
+    background-color: rgb(0, 0, 0);
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: 0;
     width: 100%;
-    height: 60%;
+    height: 70%;
 }
 .players-section-title1 {
     font-family: 'Roboto', sans-serif;
@@ -166,15 +192,15 @@ body, html {
     transform: translate(-50%, -50%);
     position: absolute;
     font-size: 27px;
-    top: 210%;
-    text-shadow: rgb(0, 0, 0) 0px 0px 5px;
+    top: 230%;
+    text-shadow: rgba(255, 255, 255, 0.459) 0px 0px 2px;
 }
 .players-section-li {
     color: white;
     font-family: 'Roboto', sans-serif;
     position: absolute;
     left: 50%;
-    top: 235%;
+    top: 255%;
     transform: translate(-50%, -50%);
     width: 40%;
     padding: 20px;
@@ -183,10 +209,19 @@ body, html {
     line-height: 70px;
     text-shadow: rgb(0, 0, 0) 0px 0px 5px;
 }
+ #li-a-firstplace {
+  text-shadow: rgb(255, 251, 0) 4px 4px 20px;
+}
+#li-a-secondplace {
+  text-shadow: rgba(255, 255, 255, 0.842) 4px 4px 20px;
+}
+#li-a-thirdplace {
+  text-shadow: rgba(255, 148, 148, 0.842) 4px 4px 20px;
+}
 #contact_info {
     height: 50%;
     width: 100%;
-    background-color: #17191b;
+    background-color: #0a0a0a;
     color: white;
   }
   .text_footer {
@@ -236,7 +271,7 @@ body, html {
     color: white;
   }
   #footer-span-webmanager {
-    color: rgb(146, 255, 143);
+    color: #00ff97;
   }
   .footer-watermark {
     position: relative;
@@ -264,18 +299,18 @@ body, html {
   
     /* Track */
     ::-webkit-scrollbar-track {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
   }
   
     /* Handle */
     ::-webkit-scrollbar-thumb {
-    background: rgb(0, 0, 0);
-    border-radius: 1px;
+    background: rgb(255, 255, 255);
+    border-radius: 5px;
   }
   
     /* Handle on hover */
     ::-webkit-scrollbar-thumb:hover {
-    background:  #131313;
+    background:  #000000;
   }
 
 
