@@ -17,7 +17,7 @@
       float: none;
       display: block;
       text-align: left;
-      color: rgb(0, 0, 0);
+      color: rgb(255, 255, 255);
     }
   }
   @media screen and (max-width: 1000px) {
@@ -124,6 +124,10 @@
       margin-left: 43%;
       margin-top: 15%;
     }
+    .pointer {
+      top: 81.9%;
+      left: 50.85%;
+    }
   }
   @media screen and (max-width: 1300px) {
     #join-section-title1text {
@@ -144,6 +148,10 @@
     .players-section-li {
         font-size: 15px;
     }
+    .pointer {
+      top: 83%;
+      left: 51.75%;
+    }
 }
 @media screen and (max-width: 800px) {
     #join-section-title1text {
@@ -151,21 +159,25 @@
     }
     .join-section-li {
         font-size: 12px;
-        line-height: 20px;
+        line-height: 50px;
     }
     #events-section-title1text {
         font-size: 14px;
     }
     .events-section-li {
         font-size: 12px;
-        line-height: 20px;
+        line-height: 50px;
     }
     #players-section-title1text {
         font-size: 14px;
     }
     .players-section-li {
         font-size: 12px;
-        line-height: 20px;
+        line-height: 50px;
+    }
+    .pointer {
+      top: 83%;
+      left: 54%;
     }
 }
 @media screen and (max-width: 500px) {
@@ -174,5 +186,9 @@
   }
   #contact_info {
     height: 70%;
+}
+.pointer {
+  top: 83%;
+  left: 56%;
 }
 }
