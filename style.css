@@ -19,25 +19,34 @@ body, html {
     border: 1px solid white;
     position: absolute;
     top: 80%;
-    left: 50%;
+    left: 48.5%;
  }
 .pointer {
   cursor: pointer;
-  border: solid rgb(255, 255, 255);
+  border: solid rgb(196, 196, 196);
   border-width: 0 4px 4px 0;
   position: absolute;
   top: 82.2%;
-  left: 51.15%;
+  left: 49.65%;
   width: 8px;
   height: 8px;
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
   }
+.pointer:hover {
+  border: solid rgb(255, 255, 255);
+  border-width: 0 4px 4px 0;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  width: 8.5px;
+  height: 8.5px;
+  transition: 0.15s;
+}
 .navbar {
     z-index: 1;
     position: fixed;
     top: 0;
-    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
     width: 100%;
     height: 6%;
     text-shadow: 20px;
@@ -48,7 +57,7 @@ body, html {
     position: relative;
     padding: 11px 40px;
     text-align: center;
-    left: 33%;
+    left: 32.2%;
     top: 25%;
     border-radius: 20px;
     text-decoration: none;
@@ -86,7 +95,7 @@ body, html {
 #main-section {
     width: 100%;
     height: 100%;
-    /*background-image: url(resources/boblesuwu_2x.jpg);*/
+    background-image: url(resources/plaguedoctor.jpg);
     background-color: rgb(0, 0, 0);
     background-repeat: no-repeat;
     background-size: cover;
