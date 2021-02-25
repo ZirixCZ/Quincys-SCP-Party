@@ -1,0 +1,102 @@
+body, html {
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+span {
+    display:inline-block;
+    border-bottom:2px solid rgb(255, 255, 255);
+    padding-bottom: 3px;
+}
+.upper {
+    left: 66%;
+    width: 50%;
+    transform: translateX(-50%);
+    font-size: 40px;
+    position: absolute;
+    color: white;
+}
+.lower {
+    position: absolute;
+    font-size: 15px;
+    left: 20%;
+    color: white;
+    width: 50%;
+}
+#event1-upper {
+    top: 0%;
+}
+#event1-lower {
+    top: 15%;
+}
+
+#event2-upper {
+    top: 40%;
+}
+#event2-lower {
+    top: 55%;
+}
+
+#event3-upper {
+    top: 80%;
+}
+#event3-lower {
+    top: 95%;
+}
+#event4-upper {
+    top: 120%;
+}
+#event4-lower {
+    top: 135%;
+}
+
+#event5-upper {
+    top: 160%;
+}
+#event5-lower {
+    top: 175%;
+}
+
+#event6-upper {
+    top: 200%;
+}
+#event6-lower {
+    top: 215%;
+}
+
+#event7-upper {
+    top: 240%;
+}
+#event7-lower {
+    top: 255%;
+}
+
+#event8-upper {
+    top: 280%;
+}
+#event8-lower {
+    top: 295%;
+}
+
+#event9-upper {
+    top: 320%;
+}
+#event9-lower {
+    top: 335%;
+}
+#event10-upper {
+    top: 360%;
+}
+#event10-lower {
+    top: 375%;
+}
+
+#event11-upper {
+    top: 400%;
+}
+#event11-lower {
+    top: 415%;
+}
