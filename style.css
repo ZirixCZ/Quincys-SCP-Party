@@ -139,6 +139,11 @@ body, html {
 .in-active {
   color:rgba(255, 255, 255, 0.069)
 }
+.events-info {
+  color: rgb(155, 155, 155);
+  text-decoration: none;
+  text-shadow: rgba(250, 250, 250, 0.2) 4px 4px 20px;
+}
 #li-a {
     text-align: justify;
 }
