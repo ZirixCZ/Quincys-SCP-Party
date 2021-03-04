@@ -137,10 +137,10 @@ body, html {
     text-shadow: rgb(0, 0, 0) 0px 0px 5px;
 }
 .in-active {
-  color:rgba(255, 255, 255, 0.069)
+  color:rgba(0, 0, 0, 0.069);
 }
 .events-info {
-  color: rgb(155, 155, 155);
+  color: rgba(125, 160, 255, 0.411);
   text-decoration: none;
   text-shadow: rgba(250, 250, 250, 0.2) 4px 4px 20px;
 }
