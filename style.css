@@ -224,13 +224,13 @@ body, html {
     text-shadow: rgb(0, 0, 0) 0px 0px 5px;
 }
  #li-a-firstplace {
-  text-shadow: rgb(255, 251, 0) 4px 4px 20px;
+  text-shadow: rgb(125, 160, 255) 4px 4px 15px;
 }
 #li-a-secondplace {
-  text-shadow: rgba(255, 255, 255, 0.842) 4px 4px 20px;
+  text-shadow: rgb(125, 160, 255) 4px 4px 20px;
 }
 #li-a-thirdplace {
-  text-shadow: rgba(255, 148, 148, 0.842) 4px 4px 20px;
+  text-shadow: rgb(125, 160, 255) 4px 4px 20px;
 }
 #contact_info {
     height: 50%;
@@ -285,7 +285,7 @@ body, html {
     color: white;
   }
   #footer-span-webmanager {
-    color: #00ff97;
+    color: rgb(125, 160, 255);
   }
   .footer-watermark {
     position: relative;
