@@ -63,6 +63,9 @@
     #contact_info {
       height: 40%;
   }
+  .main-title {
+    font-size: 20px;
+  }
   }
 
   @media screen and (min-width: 1000px) {
