@@ -7,8 +7,7 @@ body, html {
 }
 .arrow {
     cursor: pointer;
-    border: solid rgb(255, 255, 255);
-    border-width: 0 4px 4px 0;
+    border: 2px solid rgb(255, 255, 255);
     display: inline-block;
     border-radius: 100%;
     padding: 3px;
@@ -16,7 +15,7 @@ body, html {
     width: 50px;
     cursor: pointer;
     background-color: rgba(255, 255, 255, 0);
-    border: 1px solid white;
+    box-shadow:  5px 5px 30px rgba(253, 253, 253, 0.137);
     position: absolute;
     top: 80%;
     left: 48.5%;
@@ -27,7 +26,7 @@ body, html {
   border-width: 0 4px 4px 0;
   position: absolute;
   top: 82.2%;
-  left: 49.65%;
+  left: 49.72%;
   width: 8px;
   height: 8px;
   transform: rotate(45deg);
@@ -90,7 +89,8 @@ body, html {
     border-radius: 3px;
     border: 2px solid #ffffff;
     background-color: rgba(0, 0, 0, 0.144);
-    box-shadow:  2px 5px 20px rgba(253, 253, 253, 0.137);
+    text-shadow: rgba(255, 255, 255, 0.473) 2px 0px 20px;
+    box-shadow:  4px 5px 30px rgba(253, 253, 253, 0.137);
 }
 #main-section {
     width: 100%;
@@ -120,7 +120,7 @@ body, html {
     position: absolute;
     font-size: 27px;
     top: 112%;
-    text-shadow: rgba(255, 255, 255, 0.459) 0px 0px 2px;
+    text-shadow: rgba(125, 160, 255, 0.678) 4px 0px 20px;
 }
 .join-section-li {
     color: white;
@@ -167,7 +167,7 @@ body, html {
     position: absolute;
     font-size: 27px;
     top: 170%;
-    text-shadow: rgba(255, 255, 255, 0.459) 0px 0px 2px;
+    text-shadow: rgba(125, 160, 255, 0.678) 4px 0px 20px;
 }
 .events-section-li {
     color: rgb(255, 255, 255);
@@ -207,7 +207,7 @@ body, html {
     position: absolute;
     font-size: 27px;
     top: 230%;
-    text-shadow: rgba(255, 255, 255, 0.459) 0px 0px 2px;
+    text-shadow: rgba(125, 160, 255, 0.678) 4px 0px 20px;
 }
 .players-section-li {
     color: white;
@@ -224,13 +224,13 @@ body, html {
     text-shadow: rgb(0, 0, 0) 0px 0px 5px;
 }
  #li-a-firstplace {
-  text-shadow: rgb(125, 160, 255) 4px 4px 15px;
+  text-shadow: rgb(125, 160, 255) 12px 0px 30px;
 }
 #li-a-secondplace {
-  text-shadow: rgb(125, 160, 255) 4px 4px 20px;
+  text-shadow: rgb(125, 160, 255) 12px 0px 30px;
 }
 #li-a-thirdplace {
-  text-shadow: rgb(125, 160, 255) 4px 4px 20px;
+  text-shadow: rgb(125, 160, 255) 12px 0px 30px;
 }
 #contact_info {
     height: 50%;
