@@ -2,7 +2,7 @@ body, html {
     width: 100%;
     height: 100%;
     margin: auto;
-    font-family: 'Yantramanav', sans-serif;
+    font-family: 'Barlow', sans-serif;
     scroll-behavior: smooth;
 }
 .arrow {
@@ -42,6 +42,7 @@ body, html {
   transition: 0.15s;
 }
 .navbar {
+    font-family: 'Barlow', sans-serif;
     z-index: 1;
     position: fixed;
     top: 0;
@@ -65,8 +66,7 @@ body, html {
     cursor: pointer;
 }
 .navbar a:hover {
-    background-color: rgb(238, 238, 238);
-    color: black;
+  text-shadow: rgba(255, 255, 255, 0.473) 2px 0px 20px;
     transition: 0.2s ease-in-out;
 }
 .navbar .icon {
@@ -77,8 +77,8 @@ body, html {
 }
 .main-title {
     color: white;
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
+    font-family: 'Barlow', sans-serif;
+    font-size: 22px;
     position: absolute;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -89,7 +89,7 @@ body, html {
     border-radius: 3px;
     border: 2px solid #ffffff;
     background-color: rgba(0, 0, 0, 0.144);
-    text-shadow: rgba(255, 255, 255, 0.473) 2px 0px 20px;
+    text-shadow: rgba(255, 255, 255, 0.404) 2px 0px 20px;
     box-shadow:  4px 5px 30px rgba(253, 253, 253, 0.137);
 }
 #main-section {
@@ -110,7 +110,7 @@ body, html {
     height: 55%;
 }
 .join-section-title1 {
-    font-family: 'Roboto', sans-serif;
+  font-family: 'Barlow', sans-serif;
 
 }
 #join-section-title1text {
@@ -125,6 +125,7 @@ body, html {
 .join-section-li {
     color: white;
     font-family: 'Roboto', sans-serif;
+    font-weight: 300;
     position: absolute;
     left: 50%;
     top: 135%;
@@ -140,6 +141,8 @@ body, html {
   color:rgba(0, 0, 0, 0.069);
 }
 .events-info {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
   color: rgba(125, 160, 255, 0.411);
   text-decoration: none;
   text-shadow: rgba(250, 250, 250, 0.2) 4px 4px 20px;
@@ -157,7 +160,7 @@ body, html {
     height: 65%;
 }
 .events-section-title1 {
-    font-family: 'Roboto', sans-serif;
+  font-family: 'Barlow', sans-serif;
 
 }
 #events-section-title1text {
@@ -171,7 +174,7 @@ body, html {
 }
 .events-section-li {
     color: rgb(255, 255, 255);
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Barlow', sans-serif;
     position: absolute;
     left: 50%;
     top: 194%;
@@ -197,7 +200,7 @@ body, html {
     height: 70%;
 }
 .players-section-title1 {
-    font-family: 'Roboto', sans-serif;
+  font-family: 'Barlow', sans-serif;
 
 }
 #players-section-title1text {
@@ -212,6 +215,7 @@ body, html {
 .players-section-li {
     color: white;
     font-family: 'Roboto', sans-serif;
+    font-weight: 300;
     position: absolute;
     left: 50%;
     top: 255%;
