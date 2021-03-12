@@ -1,6 +1,6 @@
-## **QUINCYSCP.GA**
+**QUINCYSCP.GA**
 
-*The domain address for this repository is* **https://www.quincyscp.ga/**
+## *The domain address for this repository is* **https://www.quincyscp.ga/**
 
 
 Hey, are you interested in our small, but growing community? Join us on discord so you don't miss any new information about the game server.
