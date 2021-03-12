@@ -1,4 +1,4 @@
-**QUINCYSCP.GA**
+## **QUINCYSCP.GA**
 
 *The domain address for this repository is* **https://www.quincyscp.ga/**
 
