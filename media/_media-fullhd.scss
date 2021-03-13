@@ -1,0 +1,22 @@
+@media screen and (min-width: 2560px) {
+    #watermark {
+        font-size: 19px;
+      }
+      #text_footer-p {
+        font-size: 20px;
+      }
+      .main-title {
+        h1 {
+            font-size: 90px;
+         }   
+         }
+         .navbar {
+            a {
+                font-size: 25px;
+                &:hover {
+                    font-size: 27px;
+                }
+              }
+             }
+    
+}
