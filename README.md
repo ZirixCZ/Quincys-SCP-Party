@@ -6,5 +6,7 @@
 Hey, are you interested in our small, but growing community? Join us on discord so you don't miss any new information about the game server.
 *https://discord.gg/F2zFuaB*
 
-![scsscapture](https://user-images.githubusercontent.com/49836430/111043242-cd7a0a00-8441-11eb-96ae-67ed92e53f18.PNG)
+
+![coding-tilted](https://user-images.githubusercontent.com/49836430/111043863-534b8480-8445-11eb-972d-315fca4fdae5.jpg)
+
 
