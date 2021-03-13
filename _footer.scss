@@ -1,0 +1,73 @@
+#contact_info {
+    height: 50%;
+    width: 100%;
+    background-color: #0a0a0a;
+    color: white;
+  }
+  .text_footer {
+   position: relative;
+   width: 100%;
+   height: 0%;
+   top: 20%;
+  }
+  #h1_text-foooter-discord {
+    margin-top: 0;
+    position: relative;
+    color: white;
+    margin-left: 5%;
+  }
+  #footer-discord-link {
+    color: white;
+    cursor: pointer;
+  }
+  #text_footer-p {
+    position: relative;
+    color: rgb(131, 131, 131);
+    font-size: 15px;
+    line-height: 1.5;
+    width: 30%;
+    margin-left: 5%;
+  }
+  .text-footer-email {
+    margin: 0;
+    top: 0;
+    position: relative;
+    margin-left: 45%;
+    line-height: 1.5;
+    top: 20%;
+  }
+  #h1_text-footer-email {
+    top: 0;
+    position: relative;
+    margin-left: 50%;
+  }
+  #text-footer-p-email {
+    color: rgb(131, 131, 131);
+    top: 0;
+    position: relative;
+    margin-left: 50%;
+  }
+  #footer-email-span {
+    color: white;
+  }
+  #footer-span-webmanager {
+    color: rgb(125, 160, 255);
+  }
+  .footer-watermark {
+    position: relative;
+    bottom: 0;
+  }
+  #watermark {
+    font-size: 13px;
+    color: rgb(131, 131, 131);
+    position: relative;
+    margin-left: 42.5%;
+    margin-top: 13%;
+  }
+  #footer-quincymcp {
+    font-style: italic;
+    font-weight: bold;
+  }
+  #footer-watermark-span {
+    font-style: italic;
+  }

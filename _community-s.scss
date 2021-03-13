@@ -1,0 +1,31 @@
+#community-s {
+background-color: rgb(0, 0, 0);
+background-repeat: no-repeat;
+background-size: cover;
+width: $fullWidth;
+height: 100%;
+}
+.community-s-title {
+font-size: 40px;
+ #community-s-title-h2 {
+    display:inline-block;
+    border-bottom:10px solid rgb(77, 255, 61);
+    border-radius: 20px;
+    padding-bottom: 10px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+ }
+}
+.community-s-li {
+height: 50%;    
+    li {
+        font-size: 25px;
+        transform: translate(-50%, -50%);
+        top: 65%;
+        left: 65%;
+        width: 80%;
+        line-height: 130px;
+        position: relative;
+    }
+}

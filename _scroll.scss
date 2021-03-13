@@ -1,0 +1,66 @@
+.arrows {
+	top: 80%;
+	width: 60px;
+	height: 72px;
+	position: absolute;
+	left: 50%;
+	margin-left: -30px;
+	bottom: 20px;
+    cursor: pointer;
+}
+
+.arrows path {
+	stroke: #ffffff;
+	fill: transparent;
+	stroke-width: 1px;	
+	animation: arrow 2s infinite;
+	-webkit-animation: arrow 2s infinite; 
+}
+
+@keyframes arrow
+{
+0% {opacity:0}
+40% {opacity:1}
+80% {opacity:0}
+100% {opacity:0}
+}
+
+@-webkit-keyframes arrow /*Safari and Chrome*/
+{
+0% {opacity:0}
+40% {opacity:1}
+80% {opacity:0}
+100% {opacity:0}
+}
+
+.arrows path.a1 {
+	animation-delay:-1s;
+	-webkit-animation-delay:-1s;
+}
+
+.arrows path.a2 {
+	animation-delay:-0.5s;
+	-webkit-animation-delay:-0.5s;
+}
+
+.arrows path.a3 {	
+	animation-delay:0s;
+	-webkit-animation-delay:0s;
+}
+
+::-webkit-scrollbar {
+	width: 5px;
+}
+	  
+::-webkit-scrollbar-track {
+	background-color: rgb(0, 0, 0);
+}
+	  
+::-webkit-scrollbar-thumb {
+	background: rgb(255, 255, 255);
+	border-radius: 4px;
+}
+	  
+::-webkit-scrollbar-thumb:hover {
+	background: rgba(255, 255, 255, 0.856);
+}

@@ -1,0 +1,60 @@
+#join-s {
+background-color: rgb(0, 0, 0);
+background-repeat: no-repeat;
+background-size: cover;
+width: $fullWidth;
+height: 100%;
+}
+.join-s-title {
+font-size: 40px;
+h3 {
+    position: absolute;
+    font-size: 40px;
+    top: 120%;
+    left: 10%;
+ }
+}
+#join-s-title-h2 {
+display:inline-block;
+border-bottom:10px solid rgb(86, 201, 255);
+border-radius: 20px;
+padding-bottom: 10px;
+position: absolute;
+transform: translate(-50%, -50%);
+left: 50%;
+}
+#join-s-title-h3 {
+border-bottom:4px solid rgb(0, 174, 255);
+padding-bottom: 7px;
+}
+#join-s-title-h4 {
+position: absolute;
+font-size: 40px;
+top: 160%;
+left: 10%;
+border-bottom:4px solid rgb(0, 174, 255);
+padding-bottom: 7px;
+}
+.join-s-li {
+height: 50%;    
+    li {
+        font-size: 25px;
+        top: 70%;
+        left: 25%;
+        width: 80%;
+        line-height: 70px;
+        position: relative;
+    }
+}
+.join-s-li2 {
+height: 50%;
+    li {
+        font-size: 25px;
+        top: 40%;
+        left: 25%;
+        width: 80%;
+        line-height: 70px;
+        position: relative;
+
+    }
+}
