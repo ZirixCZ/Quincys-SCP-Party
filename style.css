@@ -67,8 +67,6 @@ body {
 }
 
 .main-title h1 {
-  -webkit-filter: blur(0.49px);
-          filter: blur(0.49px);
   color: white;
   font-size: 60px;
 }
@@ -195,7 +193,7 @@ body {
 
 .events-info {
   position: absolute;
-  top: 270%;
+  top: 265%;
   left: 46%;
   font-size: 30px;
   font-family: 'Roboto', sans-serif;
@@ -478,6 +476,15 @@ body {
   #watermark {
     margin-top: 30%;
     font-size: 9px;
+  }
+  .events-info {
+    font-size: 12px;
+  }
+  #text-footer-p-email {
+    font-size: 7px;
+  }
+  #footer-email-span {
+    font-size: 5px;
   }
 }
 /*# sourceMappingURL=style.css.map */
