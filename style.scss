@@ -1,0 +1,93 @@
+$fullWidth: 100%;
+$fullHeight: 100%;
+$fontColorDef: rgb(255, 255, 255);
+$backgroundColorDef: rgb(0, 0, 0);
+$FontFamilyBarlow: 'Barlow', sans-serif;
+html {
+width: $fullWidth;
+height: $fullHeight;
+scroll-behavior: smooth;
+}
+body {
+font-family: $FontFamilyBarlow;
+width: $fullWidth;
+height: $fullHeight;
+color: $fontColorDef;
+background-color: $backgroundColorDef;
+margin: 0;
+overflow-x: hidden;
+}
+.navbar {
+background-color: rgba(255, 0, 0, 0);
+position: fixed;
+width: $fullWidth;
+height: 5%;
+top: 0;
+z-index: 1;
+a {
+    filter:blur(0.44px);
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: none;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 11px 40px;
+    left: 36%;
+    top: 25%;
+    color: white;
+    border-radius: 15px;
+    &:hover {
+        background-color: rgb(255, 255, 255);
+        color: rgb(22, 22, 22);
+        font-size: 20px;
+        font-weight: 600;
+        transition: 0.2s;
+  }
+ }
+}
+#li-a {
+    text-align: justify;
+}
+
+.main-title {
+position: absolute;
+transform: translate(-50%, -50%);
+top: 50%;
+left: 50%;
+width: 80%;
+padding: 5px;
+text-align: center;
+border: 2px solid #ffffff;
+h1 {
+    filter:blur(0.49px);
+    color: $fontColorDef;
+    font-size: 60px;
+ }   
+h2 {
+    font-size: 20px;
+}
+}
+
+#main-s {
+width: $fullWidth;
+height: $fullHeight;
+background-color: black;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+@import "./_join-s";
+
+@import "./event-s";
+
+@import "./community-s";
+
+@import "./scroll";
+
+@import "./footer";
+
+@import "./media/media-fullhd";
+
+@import "./media/media-phone";
