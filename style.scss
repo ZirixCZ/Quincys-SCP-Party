@@ -1,7 +1,7 @@
 $fullWidth: 100%;
 $fullHeight: 100%;
 $fontColorDef: rgb(255, 255, 255);
-$backgroundColorDef: rgb(0, 0, 0);
+$backgroundColorDef: rgb(3, 3, 3);
 $FontFamilyBarlow: 'Barlow', sans-serif;
 html {
 width: $fullWidth;
@@ -10,6 +10,7 @@ scroll-behavior: smooth;
 }
 body {
 font-family: $FontFamilyBarlow;
+font-weight: 400;
 width: $fullWidth;
 height: $fullHeight;
 color: $fontColorDef;
@@ -21,7 +22,7 @@ overflow-x: hidden;
 background-color: rgba(255, 0, 0, 0);
 position: fixed;
 width: $fullWidth;
-height: 5%;
+height: 10%;
 top: 0;
 z-index: 1;
 a {
@@ -39,10 +40,10 @@ a {
     color: white;
     border-radius: 15px;
     &:hover {
-        background-color: rgb(255, 255, 255);
-        color: rgb(22, 22, 22);
+        color: rgb(255, 255, 255);
+        text-shadow: rgba(255, 255, 255, 0.452) 0px 0px 5px;
         font-size: 20px;
-        font-weight: 600;
+        font-weight: 400;
         transition: 0.2s;
   }
  }
@@ -50,7 +51,19 @@ a {
 #li-a {
     text-align: justify;
 }
-
+.parallax {
+    /* The image used */
+    background-image: url('resources/computerreducedfig1.gif');
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 .main-title {
 position: absolute;
 transform: translate(-50%, -50%);
@@ -63,6 +76,7 @@ border: 2px solid #ffffff;
 h1 {
     color: $fontColorDef;
     font-size: 60px;
+    text-shadow: rgb(255, 255, 255) 0px 0px 4px;
  }   
 h2 {
     font-size: 20px;
