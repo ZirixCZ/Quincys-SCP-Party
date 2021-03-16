@@ -6,10 +6,11 @@ html {
 
 body {
   font-family: "Barlow", sans-serif;
+  font-weight: 400;
   width: 100%;
   height: 100%;
   color: white;
-  background-color: black;
+  background-color: #030303;
   margin: 0;
   overflow-x: hidden;
 }
@@ -18,7 +19,7 @@ body {
   background-color: rgba(255, 0, 0, 0);
   position: fixed;
   width: 100%;
-  height: 5%;
+  height: 10%;
   top: 0;
   z-index: 1;
 }
@@ -42,16 +43,28 @@ body {
 }
 
 .navbar a:hover {
-  background-color: white;
-  color: #161616;
+  color: white;
+  text-shadow: rgba(255, 255, 255, 0.452) 0px 0px 5px;
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 400;
   -webkit-transition: 0.2s;
   transition: 0.2s;
 }
 
 #li-a {
   text-align: justify;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("resources/computerreducedfig1.gif");
+  /* Full height */
+  height: 100%;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .main-title {
@@ -69,6 +82,7 @@ body {
 .main-title h1 {
   color: white;
   font-size: 60px;
+  text-shadow: white 0px 0px 4px;
 }
 
 .main-title h2 {
@@ -84,11 +98,11 @@ body {
 }
 
 #join-s {
-  background-color: black;
+  background-color: #030303;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: 100%;
+  height: 120%;
 }
 
 .join-s-title {
@@ -98,7 +112,7 @@ body {
 .join-s-title h3 {
   position: absolute;
   font-size: 40px;
-  top: 120%;
+  top: 140%;
   left: 10%;
 }
 
@@ -111,6 +125,7 @@ body {
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   left: 50%;
+  top: 120%;
 }
 
 #join-s-title-h3 {
@@ -121,7 +136,7 @@ body {
 #join-s-title-h4 {
   position: absolute;
   font-size: 40px;
-  top: 160%;
+  top: 180%;
   left: 10%;
   border-bottom: 4px solid #00aeff;
   padding-bottom: 7px;
@@ -133,7 +148,7 @@ body {
 
 .join-s-li li {
   font-size: 25px;
-  top: 70%;
+  top: 90%;
   left: 25%;
   width: 80%;
   line-height: 70px;
@@ -146,7 +161,7 @@ body {
 
 .join-s-li2 li {
   font-size: 25px;
-  top: 40%;
+  top: 50%;
   left: 25%;
   width: 80%;
   line-height: 70px;
@@ -154,11 +169,11 @@ body {
 }
 
 #event-s {
-  background-color: black;
+  background-color: #030303;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: 70%;
+  height: 100%;
 }
 
 .event-s-title {
@@ -174,6 +189,7 @@ body {
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   left: 50%;
+  top: 245%;
 }
 
 .event-s-li {
@@ -184,31 +200,31 @@ body {
   font-size: 25px;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  top: 65%;
+  top: 90%;
   left: 80%;
   width: 80%;
-  line-height: 110px;
+  line-height: 130px;
   position: relative;
 }
 
 .events-info {
   position: absolute;
-  top: 265%;
-  left: 46%;
+  top: 264%;
+  left: 42%;
   font-size: 30px;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
-  color: rgba(125, 160, 255, 0.411);
+  color: rgba(255, 144, 144, 0.253);
   text-decoration: none;
-  text-shadow: rgba(250, 250, 250, 0.2) 4px 4px 20px;
+  text-shadow: rgba(255, 60, 60, 0.336) 0px 0px 5px;
 }
 
 #community-s {
-  background-color: black;
+  background-color: #030303;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: 100%;
+  height: 170%;
 }
 
 .community-s-title {
@@ -217,27 +233,37 @@ body {
 
 .community-s-title #community-s-title-h2 {
   display: inline-block;
-  border-bottom: 10px solid #4dff3d;
+  border-bottom: 10px solid #df3dff;
   border-radius: 20px;
   padding-bottom: 10px;
   position: absolute;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   left: 50%;
+  top: 350%;
 }
 
 .community-s-li {
+  position: relative;
   height: 50%;
+  top: 30%;
+  left: 25%;
+  height: 800px;
+  width: 50%;
+  overflow: hidden;
+  overflow-y: scroll;
+  background-color: #0a0a0c;
+  border-radius: 10px;
 }
 
 .community-s-li li {
   font-size: 25px;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  top: 65%;
-  left: 65%;
+  top: 10%;
+  left: 70%;
   width: 80%;
-  line-height: 130px;
+  line-height: 170px;
   position: relative;
 }
 
@@ -431,6 +457,9 @@ body {
   .navbar a {
     opacity: 0;
   }
+  .main-title {
+    top: 20%;
+  }
   .main-title h1 {
     font-size: 40px;
   }
@@ -444,13 +473,15 @@ body {
     font-size: 20px;
   }
   .join-s-li li {
-    font-size: 15px;
+    top: 78%;
+    font-size: 12px;
   }
   .join-s-li2 {
     height: 50%;
   }
   .join-s-li2 li {
-    font-size: 15px;
+    top: 45%;
+    font-size: 12px;
   }
   #join-s-title-h4 {
     font-size: 20px;
@@ -461,20 +492,31 @@ body {
   .event-s-li li {
     font-size: 15px;
     left: 60%;
+    line-height: 100px;
+  }
+  .events-info {
+    top: 262%;
   }
   .community-s-title {
     font-size: 20px;
   }
+  .community-s-li {
+    height: 600px;
+  }
   .community-s-li li {
     font-size: 15px;
     left: 65%;
-    top: 45%;
+    top: 20%;
+    line-height: 110px;
+  }
+  #contact_info {
+    height: 100%;
   }
   #text_footer-p {
     font-size: 10px;
   }
   #watermark {
-    margin-top: 30%;
+    margin-top: 90%;
     font-size: 9px;
   }
   .events-info {
