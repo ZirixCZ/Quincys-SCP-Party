@@ -147,6 +147,7 @@ body {
 }
 
 .join-s-li li {
+  list-style-type: none;
   font-size: 25px;
   top: 90%;
   left: 25%;
@@ -160,6 +161,7 @@ body {
 }
 
 .join-s-li2 li {
+  list-style-type: none;
   font-size: 25px;
   top: 50%;
   left: 25%;
@@ -214,9 +216,9 @@ body {
   font-size: 30px;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
-  color: rgba(255, 144, 144, 0.253);
+  color: rgba(255, 255, 255, 0.253);
   text-decoration: none;
-  text-shadow: rgba(255, 60, 60, 0.336) 0px 0px 5px;
+  text-shadow: rgba(255, 255, 255, 0.219) 0px 0px 5px;
 }
 
 #community-s {
@@ -257,6 +259,7 @@ body {
 }
 
 .community-s-li li {
+  list-style-type: none;
   font-size: 25px;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
