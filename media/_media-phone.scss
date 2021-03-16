@@ -5,6 +5,7 @@
     }
 }
 .main-title {
+    top: 20%;
     h1 {
         font-size: 40px;
      }   
@@ -20,13 +21,15 @@
         }
         .join-s-li {  
                 li {
-                    font-size: 15px;
+                    top: 78%;
+                    font-size: 12px;
                 }
             }
             .join-s-li2 {
             height: 50%;
                 li {
-                    font-size: 15px;
+                    top: 45%;
+                    font-size: 12px;
             
                 }
             }
@@ -42,25 +45,33 @@
     li {
         font-size: 15px;
         left: 60%;
+        line-height: 100px;
     }
 }
+.events-info {
+    top: 262%;
+  }
 
 .community-s-title {
     font-size: 20px;
     }
-    .community-s-li {   
+    .community-s-li {  
+        height:600px; 
             li {
                 font-size: 15px;
                 left: 65%;
-                top: 45%
+                top: 20%;
+                line-height: 110px;
             }
         }
-
+        #contact_info {
+            height: 100%;;
+          }
         #text_footer-p {
             font-size: 10px;
           }
           #watermark {
-            margin-top: 30%;
+            margin-top: 90%;
             font-size: 9px;
           }
           .events-info {
