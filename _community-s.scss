@@ -29,6 +29,7 @@ overflow:hidden; overflow-y:scroll;
 background-color: rgb(10, 10, 12);
 border-radius: 10px;
     li {
+        list-style-type: none;
         font-size: 25px;
         transform: translate(-50%, -50%);
         top: 10%;
