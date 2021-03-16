@@ -1,31 +1,40 @@
 #community-s {
-background-color: rgb(0, 0, 0);
+background-color: $backgroundColorDef;
 background-repeat: no-repeat;
 background-size: cover;
 width: $fullWidth;
-height: 100%;
+height: 170%;
 }
 .community-s-title {
 font-size: 40px;
  #community-s-title-h2 {
     display:inline-block;
-    border-bottom:10px solid rgb(77, 255, 61);
+    border-bottom:10px solid rgb(223, 61, 255);
     border-radius: 20px;
     padding-bottom: 10px;
     position: absolute;
     transform: translate(-50%, -50%);
     left: 50%;
+    top: 350%;
  }
 }
 .community-s-li {
-height: 50%;    
+position: relative;
+height: 50%; 
+top: 30%;
+left: 25%;
+height:800px; 
+width:50%;
+overflow:hidden; overflow-y:scroll;
+background-color: rgb(10, 10, 12);
+border-radius: 10px;
     li {
         font-size: 25px;
         transform: translate(-50%, -50%);
-        top: 65%;
-        left: 65%;
+        top: 10%;
+        left: 70%;
         width: 80%;
-        line-height: 130px;
+        line-height: 170px;
         position: relative;
     }
 }
