@@ -130,7 +130,7 @@ body {
 
 #join-s-title-h2 {
   display: inline-block;
-  border-bottom: 10px solid #56c9ff;
+  border-bottom: 10px solid #f9ffc6;
   border-radius: 20px;
   padding-bottom: 10px;
   position: absolute;
@@ -141,7 +141,7 @@ body {
 }
 
 #join-s-title-h3 {
-  border-bottom: 4px solid #00aeff;
+  border-bottom: 4px solid #f9ffc6;
   padding-bottom: 7px;
 }
 
@@ -150,7 +150,7 @@ body {
   font-size: 40px;
   top: 180%;
   left: 10%;
-  border-bottom: 4px solid #00aeff;
+  border-bottom: 4px solid #f9ffc6;
   padding-bottom: 7px;
 }
 
@@ -196,7 +196,7 @@ body {
 
 .event-s-title #event-s-title-h2 {
   display: inline-block;
-  border-bottom: 10px solid #ff3d3d;
+  border-bottom: 10px solid #5eb1ff;
   border-radius: 20px;
   padding-bottom: 10px;
   position: absolute;
@@ -247,7 +247,7 @@ body {
 
 .community-s-title #community-s-title-h2 {
   display: inline-block;
-  border-bottom: 10px solid #df3dff;
+  border-bottom: 10px solid rgba(255, 118, 164, 0.568);
   border-radius: 20px;
   padding-bottom: 10px;
   position: absolute;
