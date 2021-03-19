@@ -303,6 +303,8 @@ body {
   left: 9%;
   height: 80%;
   width: 80%;
+  -webkit-box-shadow: #030303 20px 20px 50px;
+          box-shadow: #030303 20px 20px 50px;
 }
 
 .community-s-li-owner {
