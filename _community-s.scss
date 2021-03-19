@@ -3,39 +3,61 @@ background-color: $backgroundColorDef;
 background-repeat: no-repeat;
 background-size: cover;
 width: $fullWidth;
-height: 170%;
+height: 270%;
 }
 .community-s-title {
 font-size: 40px;
  #community-s-title-h2 {
     display:inline-block;
-    border-bottom:10px solid rgba(255, 118, 164, 0.568);
+    border-bottom:10px solid rgb(8, 0, 122);
     border-radius: 20px;
     padding-bottom: 10px;
     position: absolute;
     transform: translate(-50%, -50%);
     left: 50%;
-    top: 350%;
+    top: 480%;
  }
 }
 .community-s-li {
 position: relative;
 height: 50%; 
-top: 30%;
+top: 60%;
 left: 25%;
 height:800px; 
 width:50%;
 overflow:hidden; overflow-y:scroll;
-background-color: rgb(10, 10, 12);
+background-color: rgb(7, 7, 8);
 border-radius: 10px;
     li {
         list-style-type: none;
         font-size: 25px;
         transform: translate(-50%, -50%);
-        top: 10%;
+        top: 15%;
         left: 70%;
         width: 80%;
         line-height: 170px;
         position: relative;
     }
+}
+.content-community {
+    font-size: 40px;
+ #community-s-community-creator {
+    display:inline-block;
+    border-bottom:5px solid rgb(93, 253, 0);
+    padding-bottom: 10px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 350%;
+   }
+   iframe {
+       position: absolute;
+       top: 370%;
+       left: 9%;
+       height: 80%;
+       width: 80%;
+   }
+}
+.community-s-li-owner {
+    color: rgb(114, 112, 216);
 }
