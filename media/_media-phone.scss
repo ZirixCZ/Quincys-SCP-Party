@@ -56,7 +56,9 @@
     font-size: 20px;
     }
     .community-s-li {  
-        height:600px; 
+        height:400px; 
+        width: 90%;
+        left: 5%;
             li {
                 font-size: 15px;
                 left: 65%;
@@ -83,4 +85,7 @@
           #footer-email-span {
               font-size: 5px;
           }
+          .content-community {
+            font-size: 20px;
+        }
 }
