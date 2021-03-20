@@ -272,13 +272,13 @@ body {
 
 .community-s-li li {
   list-style-type: none;
-  font-size: 25px;
+  font-size: 30px;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   top: 15%;
   left: 70%;
   width: 80%;
-  line-height: 170px;
+  line-height: 150px;
   position: relative;
 }
 
