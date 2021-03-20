@@ -22,15 +22,17 @@ overflow-x: hidden;
 background-color: rgba(255, 0, 0, 0);
 position: fixed;
 width: $fullWidth;
-height: 10%;
+height: 6%;
 top: 0;
 z-index: 1;
 user-select: none;
+transition: 0.3s;
 -moz-user-select: none;
 -khtml-user-select: none;
 -webkit-user-select: none;
 -o-user-select: none;
 a {
+    transition: 0.3s;
     filter:blur(0.44px);
     position: relative;
     text-align: center;
