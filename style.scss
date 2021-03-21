@@ -31,6 +31,9 @@ transition: 0.3s;
 -khtml-user-select: none;
 -webkit-user-select: none;
 -o-user-select: none;
+&.dark {
+    background: rgb(9, 9, 9);
+  }
 a {
     transition: 0.3s;
     filter:blur(0.44px);
@@ -54,6 +57,9 @@ a {
         transition: 0.2s;
   }
  }
+}
+.navbar .dark {
+    background-color: black;
 }
 #li-a {
     text-align: justify;
