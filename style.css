@@ -32,6 +32,10 @@ body {
   -o-user-select: none;
 }
 
+.navbar.dark {
+  background: #090909;
+}
+
 .navbar a {
   -webkit-transition: 0.3s;
   transition: 0.3s;
@@ -59,6 +63,10 @@ body {
   font-weight: 400;
   -webkit-transition: 0.2s;
   transition: 0.2s;
+}
+
+.navbar .dark {
+  background-color: black;
 }
 
 #li-a {
@@ -311,6 +319,12 @@ body {
 
 .community-s-li-owner {
   color: #7270d8;
+}
+
+.discord-widget-cointainer {
+  position: absolute;
+  top: 145%;
+  left: 65%;
 }
 
 .arrows {
@@ -593,6 +607,9 @@ body {
   }
   .content-community {
     font-size: 20px;
+  }
+  .discord-widget-cointainer {
+    visibility: hidden;
   }
 }
 /*# sourceMappingURL=style.css.map */
