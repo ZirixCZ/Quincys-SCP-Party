@@ -83,6 +83,15 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  -webkit-filter: opacity(40%);
+          filter: opacity(40%);
+}
+
+.parallax.shader {
+  -webkit-filter: opacity(20%);
+          filter: opacity(20%);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .main-title {
@@ -392,7 +401,7 @@ body {
 }
 
 ::-webkit-scrollbar {
-  width: 5px;
+  width: 10px;
 }
 
 ::-webkit-scrollbar-track {
